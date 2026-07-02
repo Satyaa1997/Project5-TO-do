@@ -33,7 +33,7 @@ const deleteHandler = (idx)=>{
 
   return (
     <div className='h-screen bg-black text-white'>
-      <h1>App</h1>
+      <h1>To-Do</h1>
       <form onSubmit={(e)=>{
         submitHandler(e)
       }} className='flex flex-wrap px-2 py-10'>
